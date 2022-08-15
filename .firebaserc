@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cortes-2d6d2": {
+      "hosting": {
+        "BarberShop": [
+          "cortes-2d6d2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cortes-2d6d2"
+  }
+}

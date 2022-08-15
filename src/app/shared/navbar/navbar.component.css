@@ -1,0 +1,19 @@
+
+
+.navbar{
+    background-image: linear-gradient(to left, #232222, #222020, #221e1f, #211d1d, #201b1c, #1e191b, #1c1819, #1a1618, #171416, #131113, #100e0f, #0b0a0b);
+
+
+    
+}
+
+.navbar-nav a{
+    color: whitesmoke;
+
+}
+
+.navbar-brand{
+    color: whitesmoke;
+}
+
+

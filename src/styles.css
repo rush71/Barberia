@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Merriweather', serif; }
+/*============gooogle fonts=======*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&family=Montserrat:wght@100;300&display=swap');
+
+
+
+
+
+
+ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
