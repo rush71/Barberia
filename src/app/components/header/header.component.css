@@ -93,10 +93,16 @@
     width: 20px;
 }
 
-.container__description p{
-    color: whitesmoke;
+.container__description{
+    /* color: whitesmoke;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
+    width: 100%;
+    padding-top: 10px;
+}
+
+.image__title{
+    width: 100%;
 }
 
 .decoracion__title{

@@ -1,10 +1,10 @@
 <!-- <p>cortes works!</p> -->
 
-<div class="container__total">
+<div class="container__total" loading="lazy">
     <div class="container mt-4">
         <div class="card">
             <div class="card-body">
-                <span class="h3">Listado de Cortes</span>
+                <span class="h3 card__title">Listado de Cortes</span>
                 <button class="btn btn-dark btn-lg float-lg-end" routerLink="/createCorte">Agregar</button>
                 <h5 *ngIf="cortes.length == 0">No hay datos para mostrar</h5>
                 <table *ngIf="cortes.length>0" class="table table-striped mt-4">
@@ -21,6 +21,7 @@
                         <td>{{corte.corte}}</td>
                         <td>{{corte.categoria}}</td>
                         <td>${{corte.precio}}</td>
+
                         <td>
                           <i class="fas fa-edit fa-lg text-primary" [routerLink]="['/editCorte/', corte.id]"></i>
                           <i (click)="eliminarCorte(corte.id)" class="fas fa-trash-alt fa-lg text-danger"></i>
